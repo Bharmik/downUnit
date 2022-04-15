@@ -60,7 +60,7 @@ export default {
           },
         },
         {
-          label: '高级嗅探',
+          label: '高级',
           name: 'sniffer',
           show: false,
           event: {
@@ -69,15 +69,15 @@ export default {
           },
           props: {},
         },
-        {
-          label: '推荐',
-          name: 'recommend',
-          event: {
-            collect: this.onCollectVideo,
-            copy: this.onCopyText,
-          },
-          props: {},
-        },
+        // {
+        //   label: '推荐',
+        //   name: 'recommend',
+        //   event: {
+        //     collect: this.onCollectVideo,
+        //     copy: this.onCopyText,
+        //   },
+        //   props: {},
+        // },
         {
           label: '设置',
           name: 'settings',
@@ -86,14 +86,14 @@ export default {
             qualityMap,
           },
         },
-        {
-          label: '关于',
-          name: 'about',
-          event: {},
-          props: {
-            version,
-          },
-        },
+        // {
+        //   label: '关于',
+        //   name: 'about',
+        //   event: {},
+        //   props: {
+        //     version,
+        //   },
+        // },
       ],
     };
   },
