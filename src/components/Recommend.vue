@@ -3,7 +3,7 @@
     <el-row>
       <template v-if="recommendList.length===0">
         <div v-loading="isLoading" element-loading-text="努力加载中...">
-          <p class="error-message nothing">\_(ツ)_/¯</p>
+          <p class="error-message nothing">空空如也</p>
           <p class="error-message">暂时没有推荐视频哦
             <el-button type="text" class="el-icon-refresh" @click="loadMore"></el-button>
           </p>
@@ -46,7 +46,7 @@
           <span v-if="isLoading">拼命加载中
             <i class="el-icon-loading"></i>
           </span>
-          <span v-else-if="isEnd">哦豁 \_(ツ)_/¯ 没了...</span>
+          <span v-else-if="isEnd">哦豁 空空如也 没了...</span>
         </el-col>
         <el-button :style="{'display': showTopButton ? 'block': 'none'}" id="to-top" type="success" icon="el-icon-arrow-up"
           circle @click="toTop"></el-button>

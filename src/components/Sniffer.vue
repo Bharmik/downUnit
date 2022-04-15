@@ -1,7 +1,7 @@
 <template>
   <el-row>
     <template v-if="snifferLst.length===0">
-      <p class="error-message nothing">\_(ツ)_/¯</p>
+      <p class="error-message nothing">空空如也</p>
     </template>
     <template v-else>
       <el-table :data="snifferLst" style="width: 100%">

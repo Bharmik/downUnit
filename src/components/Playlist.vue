@@ -1,7 +1,7 @@
 <template>
   <el-row>
     <template v-if="playlist.length===0">
-      <p class="error-message nothing">\_(ツ)_/¯</p>
+      <p class="error-message nothing">空空如也</p>
       <p class="error-message">没有嗅探到知乎视频.</p>
     </template>
     <template v-else>
